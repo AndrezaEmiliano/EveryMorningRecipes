@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-size: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #e1e1cf;
+  font-family: "Cabin", sans-serif;
+}
+
+h1 {
+  margin: 0;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 70%;
+}
+
+.header {
+  background: linear-gradient(rgba(119, 98, 178, 0.6), rgba(119, 98, 178, 0.6)),
+    url("../assets/assets/header-cover.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  height: 18.5rem;
+  padding: 4rem 39rem 1.563rem 4.5rem;
+  margin-top: 1.75rem;
+}
+
+.title {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 0.688rem;
+}
+
+.social-media {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  width: 18.813rem;
+}
+
+.note-image {
+  width: 1.75rem;
+  height: 1.75rem;
+  margin-right: 1.375rem;
+}
+.note {
+  color: #fff;
+  line-height: 30px;
+  text-transform: uppercase;
+  margin-right: 1.125rem;
+}
+.image {
+  width: 100%;
+}
+
+.card__image {
+  width: 30%;
+  border-radius: 10px;
+}
+
+.info__card__image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
