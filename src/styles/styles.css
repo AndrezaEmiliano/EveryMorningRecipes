@@ -13,10 +13,6 @@ html {
   font-family: "Cabin", sans-serif;
 }
 
-h1 {
-  margin: 0;
-}
-
 .wrapper {
   margin: 0 auto;
   width: 70%;
@@ -24,57 +20,53 @@ h1 {
 
 .header {
   background: linear-gradient(rgba(119, 98, 178, 0.6), rgba(119, 98, 178, 0.6)),
-    url("../assets/assets/header-cover.jpg");
+    url("../assets/header-cover.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10px;
-  height: 18.5rem;
-  padding: 4rem 39rem 1.563rem 4.5rem;
+  padding: 4rem 4.5rem 1.5625rem 4.5rem;
   margin-top: 1.75rem;
 }
 
-.title {
+.header__title {
   color: #fff;
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 3rem;
   line-height: 1.2;
-  margin-bottom: 0.688rem;
+  margin-bottom: 0.6875rem;
+  width: 14rem;
+  margin-top: 0;
 }
 
 .social-media {
-  list-style: none;
-  margin: 0;
   display: flex;
   align-items: center;
-  padding: 0;
-  width: 18.813rem;
 }
 
-.note-image {
+.social-medias {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.social-medias__icon {
   width: 1.75rem;
   height: 1.75rem;
   margin-right: 1.375rem;
 }
-.note {
+
+.social-media__text {
   color: #fff;
   line-height: 30px;
   text-transform: uppercase;
+  margin: 0;
   margin-right: 1.125rem;
 }
-.image {
+
+.icon__image {
   width: 100%;
-}
-
-.card__image {
-  width: 30%;
-  border-radius: 10px;
-}
-
-.info__card__image {
-  width: 50px;
-  height: 50px;
-  border-radius: 50px;
 }
