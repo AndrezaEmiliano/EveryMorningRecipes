@@ -70,3 +70,87 @@ html {
 .icon__image {
   width: 100%;
 }
+
+.higtlight-card-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(30.3125rem, 1fr));
+  grid-gap: 1.9rem;
+  list-style: none;
+  padding: 0;
+}
+
+.higtlight-card,
+.higtlight-card-second {
+  position: relative;
+}
+
+.higtlight-card::before,
+.higtlight-card-second::before {
+  border-radius: 10px;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 4;
+}
+.higtlight-card::before {
+  background-color: rgba(215, 215, 98, 0.6);
+}
+
+.higtlight-card-second::before {
+  background-color: rgba(185, 82, 59, 0.6);
+}
+
+.higtlight-card__image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.higtlight-info__card__image {
+  width: 3.125rem;
+  border-radius: 50px;
+}
+
+.higtlight-card-info {
+  position: relative;
+  z-index: 10;
+}
+
+.higtlight-card__text,
+.higtlight-card__text-second {
+  color: #fff;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 42px;
+  margin-bottom: 0.5rem;
+  margin-top: 8.625rem;
+  margin-left: 1.625rem;
+  width: 17.9375rem;
+}
+
+.higtlight-card__text-second {
+  margin-top: 11.375rem;
+}
+
+.higtlight-card__author {
+  display: flex;
+  margin-bottom: 1rem;
+  margin-left: 2.0625rem;
+}
+
+.higtlight-font--style {
+  color: #fff;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  margin-left: 0.6875rem;
+}
