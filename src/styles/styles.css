@@ -21,7 +21,7 @@ html {
 
 .header {
   background: linear-gradient(rgba(119, 98, 178, 0.6), rgba(119, 98, 178, 0.6)),
-    url("../assets/image/header-cover.jpg");
+    url("../assets/images/header-cover.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
